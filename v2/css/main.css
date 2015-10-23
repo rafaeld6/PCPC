@@ -1,0 +1,190 @@
+body {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 50px;
+}
+
+#container {
+	position: relative;
+	max-width: 1800px;
+	width: 90%;
+	margin: 0 auto;
+	height: 1500px;
+}
+
+.parallax {
+	position: absolute;
+	top: 0;
+	z-index: 2;
+}
+
+.parallax--brand {
+	margin-top: 2%;
+}
+
+.parallax--nav {
+	right: 0;
+	margin-top: 3%;
+}
+
+.parallax--head {
+	z-index: 3;
+	margin-top: 18%;
+	right: 5%;
+}
+
+.parallax--content {
+	margin-top: 25%;
+	left: 10%;
+}
+
+.parallax--button {
+	margin-top: 46%;
+	left: 1%;
+}
+
+.parallax--possibilities {
+	right: 10%;
+	margin-top: 40%;
+}
+
+
+.parallax--play {
+	right: 35.5%;
+	z-index: 5;
+	margin-top: 63%;
+}
+
+.parallax--mission {
+	margin-top: 60%;
+	right: 45%;
+}
+
+.parallax--read {
+	margin-top: 78%;
+	right: 45%;	
+}
+
+
+.parallax--mission-img {
+	margin-top: 65%;
+	left: 5%;
+}
+
+.parallax--footer {
+	    right: 0;
+    left: 0;
+    margin: auto;
+    bottom: -350px;
+    top: auto;
+    width: 100%;
+    z-index: -1;
+	height: 350px;
+    text-align: center;
+}
+
+.parallax--footer img {
+	display: inline-block;
+}
+
+img {
+	max-width: 100%;
+}
+
+@media (max-width: 1900px) {
+	.parallax--content {
+		width: 70%;
+	}
+
+
+	.parallax--play {
+		right: 39.5%
+	}
+
+	.parallax--mission {
+		right: 52%;
+	}
+
+	.parallax--read {
+		right: 40%;
+	}
+}
+
+
+@media (max-width: 1600px) {
+	.parallax--play {
+		margin-top: 67%;
+		right: 29.5%
+	}
+
+	.parallax--head {
+		width: 65%;
+	}
+
+	.parallax--content {
+		width: 80%;
+		margin-top: 25%;
+	}
+
+	.parallax--button {
+		margin-top: 45%;
+	}
+
+	.parallax--button img,
+	.parallax--read img {
+		width: 80%;
+	}
+
+	.parallax--possibilities {
+		width: 35%;
+	}
+
+	.parallax--play img {
+		width: 55%;
+		margin-top: 55%;
+	}
+
+	.parallax--mission-img {
+		width: 45%;
+	}
+
+}
+
+
+@media (max-width: 1400px) {
+	.parallax--content {
+		width: 70%;
+		margin-top: 27%;
+	}
+
+	.parallax--read {
+		right: 35%;
+	}
+}
+
+
+
+@media (max-width: 1200px) {
+
+	.parallax--head {
+		margin-top: 30%;
+	}
+
+	.parallax--content {
+		margin-top: 40%;
+	}
+
+	.parallax--button {
+		margin-top: 65%;
+	}
+
+	.parallax--possibilities {
+		margin-top: 50%;
+	}
+
+	.parallax--play img {
+		margin-top: 75%;
+	}
+
+
+}
